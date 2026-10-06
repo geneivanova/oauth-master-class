@@ -1,5 +1,4 @@
-window.onload = () => {
-  // TODO
-  console.log("TOKEN PAGE");
+window.onload = () => { 
+  document.body.innerHTML += <p>TOKEN PAGE</p> <p>origin: ${window.location.origin}</p>;
   YaSendSuggestToken("https://oauth-master-class-src.vercel.app")
 };
