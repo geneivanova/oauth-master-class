@@ -4,9 +4,9 @@ window.onload = () => {
       {
         client_id: "6fffd0eb41de4b00b67fc3f310d364f5",
         response_type: "token",
-        redirect_uri: "https://oauth-master-class-95tjmfi1e-test11-7bd2.vercel.app/token.html",
+        redirect_uri: "https://oauth-master-class-fookzy5k4-test11-7bd2.vercel.app/token.html",
       },
-      "https://oauth-master-class-95tjmfi1e-test11-7bd2.vercel.app",
+      "https://oauth-master-class-fookzy5k4-test11-7bd2.vercel.app",
       {
         view: "button",
         parentId: "buttonContainer",
