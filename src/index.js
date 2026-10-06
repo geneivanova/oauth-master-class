@@ -22,6 +22,7 @@ window.onload = () => {
         console.log("TOKEN RECEIVED", data);
         const result = await fetchYandexData(data.access_token);
         authorize(result);
+        document.getElementById("logs").textContent = "бум бам вы авторизованы!";
         console.log(result, data);
       })
       .catch((error) => console.log("Что-то пошло не так: ", error));
