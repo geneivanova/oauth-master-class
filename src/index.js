@@ -1,3 +1,6 @@
+async function fetchYandexData(accessToken) { const response = await fetch("https://login.yandex.ru/info?format=json", { headers: { Authorization: `OAuth ${accessToken}`, }, });
+return await response.json(); }
+
 window.onload = () => {
   document.getElementById("button").onclick = () => {
     window.YaAuthSuggest.init(
