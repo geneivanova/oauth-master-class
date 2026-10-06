@@ -24,7 +24,6 @@ window.onload = () => {
       .then(async (data) => {
         console.log("TOKEN RECEIVED", data);
         const result = await fetchYandexData(data.access_token);
-        authorize(result);
         document.getElementById("logs").textContent = "бум бам вы авторизованы!";
         console.log(result, data);
       })
